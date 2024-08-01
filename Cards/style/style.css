@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: #3b3b3b;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+h1
+{
+    text-align: center;
+    text-shadow: 3px 3px 6px #1d1d1d ;
+    padding: 4%;
+    color: #ffffff;
+    
+}
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    
+}
+
+.card-Zenitsu
+{
+    position: relative;
+    text-align: center;
+    width: 450px;
+    height: 570px;
+    background: rgb(252,243,119);
+    background: linear-gradient(126deg, rgba(252,243,119,1) 0%, rgba(255,206,99,1) 100%);
+    border-radius: 15px;
+    box-shadow: 0px 7px 10px 5px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.card-Zenitsu:hover
+{
+    cursor: pointer;
+    transform: scale(1.09);
+    transition: 1s;
+}
+
+.image-Zenitsu
+{
+    text-align: center;
+    align-items: center;
+    height: 195px;
+    width: 195px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 13px 3px rgba(255, 201, 25, 1);
+-moz-box-shadow: 0px 0px 13px 3px rgba(255, 201, 25, 1);
+box-shadow: 0px 0px 13px 3px rgba(255, 201, 25, 1);
+}
+
+h2
+{
+    padding: 16px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+h3
+{
+    padding: 13px;
+    font-weight: 750;
+    font-size: 20px;
+}
+
+p
+{
+    padding: 15px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.card-Tanjiro
+{
+    position: relative;
+    text-align: center;
+    width: 450px;
+    height: 570px;
+    background: rgb(111,249,157);
+    background: linear-gradient(126deg, rgba(111,249,157,1) 0%, rgba(77,177,116,1) 100%);
+    border-radius: 15px;
+    box-shadow: 0px 7px 10px 5px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.card-Tanjiro:hover
+{
+    cursor: pointer;
+    transform: scale(1.09);
+    transition: 1s;
+}
+
+.image-Tanjiro
+{
+    text-align: center;
+    align-items: center;
+    height: 195px;
+    width: 195px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 13px 3px #2eaf3f;
+-moz-box-shadow: 0px 0px 13px 3px #2eaf3f;
+box-shadow: 0px 0px 13px 3px #2eaf3f;
+}
+
+.card-Inosuke
+{
+    position: relative;
+    text-align: center;
+    width: 450px;
+    height: 570px;
+    background: rgb(138,193,246);
+    background: linear-gradient(126deg, rgba(138,193,246,1) 0%, rgba(68,122,175,1) 100%);
+    border-radius: 15px;
+    box-shadow: 0px 7px 10px 5px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.card-Inosuke:hover
+{
+    cursor: pointer;
+    transform: scale(1.09);
+    transition: 1s;
+}
+
+.image-Inosuke
+{
+    text-align: center;
+    align-items: center;
+    height: 195px;
+    width: 195px;
+    border-radius: 15px;
+    
+    -webkit-box-shadow: 0px 0px 13px 3px #2e689e;
+    -moz-box-shadow: 0px 0px 13px 3px #2e689e;
+    box-shadow: 0px 0px 13px 3px #2e689e;
+}
